@@ -2,6 +2,11 @@ language: r
 
 cache: packages
 
+addons:
+  artifacts:
+    paths:
+      - /home/travis/build/nhuhoai/viralEXP/viralEXP.Rcheck/
+
 script:
   - R CMD build .
   - R CMD check *tar.gz
