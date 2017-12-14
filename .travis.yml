@@ -1,4 +1,5 @@
-nguage: r
+language: r
+
 cache: packages
 
 script:
